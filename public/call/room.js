@@ -120,6 +120,6 @@ function sendMessage(event){
 }
 
 function leaveMeeting(){
-    socket.emit('disconnect');
+    socket.disconnect();
     return true;
 }
