@@ -25,3 +25,4 @@ Check out the deployed site at [https://boardmeet.onrender.com](https://boardmee
 - Adarsh Mani G
 - Balaji S
 - Dhushyanthan K
+- Rishibalaji Srinivasan
