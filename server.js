@@ -119,6 +119,7 @@ io.on('connect', socket => {
                 const id = setTimeout(()=>{roomSet.delete(roomId);} , 3600000);
                 roomSet.set(roomId , [0 , id]);
             }
+            console.log(`${userName} left`);
         });
     });
     socket.on('username-sent', (socketId, userId, userName) => {
